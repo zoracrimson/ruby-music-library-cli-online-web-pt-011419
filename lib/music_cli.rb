@@ -37,3 +37,6 @@ class MusicLibraryController
           puts "#{song.artist.name} - #{song.name} - #{song.genre.name}" if song.genre.name == g
         end
       end
+    end
+  end
+end
